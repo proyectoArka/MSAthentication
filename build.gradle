@@ -45,6 +45,10 @@ dependencies {
 	//Serializer -Deserializer
 	runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.12.7'
 
+
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
+
 }
 dependencyManagement {
 	imports {
